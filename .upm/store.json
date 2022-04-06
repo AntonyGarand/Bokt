@@ -1,0 +1,1 @@
+{"version":2,"languages":{"nodejs-npm":{"specfileHash":"ee832f3f6f35879fd8a63ac471cd5cff","lockfileHash":"810d862fffcf559c1efca832a089791f","guessedImports":["dotenv","@nestjs/core","@nestjs/common","@nestjs/testing","discord.js","necord"],"guessedImportsHash":"af7c08a4f82a3fbf6c713bf724ae4149"}}}
