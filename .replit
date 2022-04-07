@@ -1,2 +1,2 @@
 language = "nix"
-run = "npm start"
+run = "npm install && npm run build && npm run start:prod"

@@ -30,7 +30,7 @@ export class RSNCommand {
     @Context() [interaction]: ContextOf<'slashCommand'>,
     @Options() { rsn }: RSNDto,
   ) {
-    interaction.deferReply({ ephemeral: true });
+    await interaction.deferReply({ ephemeral: true });
     this.logService.log(
       `User <@${interaction.user.id}> set their RSN to ${rsn}`,
     );
